@@ -1,0 +1,11 @@
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\bin\Debug\LanguageExplore.exe.config
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\bin\Debug\LanguageExplore.exe
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\bin\Debug\LanguageExplore.pdb
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\bin\Debug\LanguageExplore.xml
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\obj\Debug\LanguageExplore.vbprojAssemblyReference.cache
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\obj\Debug\LanguageExplore.Resources.resources
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\obj\Debug\LanguageExplore.vbproj.GenerateResource.cache
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\obj\Debug\LanguageExplore.vbproj.CoreCompileInputs.cache
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\obj\Debug\LanguageExplore.exe
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\obj\Debug\LanguageExplore.xml
+C:\Users\anien\Documents\Files\School\CSCI 400\LanguageExplore\LanguageExplore\obj\Debug\LanguageExplore.pdb
