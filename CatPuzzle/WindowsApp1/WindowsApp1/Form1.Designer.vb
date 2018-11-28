@@ -156,7 +156,7 @@ Partial Class Form1
         'PB15
         '
         Me.PB15.Image = CType(resources.GetObject("PB15.Image"), System.Drawing.Image)
-        Me.PB15.Location = New System.Drawing.Point(569, 486)
+        Me.PB15.Location = New System.Drawing.Point(672, 486)
         Me.PB15.Name = "PB15"
         Me.PB15.Size = New System.Drawing.Size(103, 153)
         Me.PB15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -236,7 +236,7 @@ Partial Class Form1
         'blankBox
         '
         Me.blankBox.BackColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.blankBox.Location = New System.Drawing.Point(672, 486)
+        Me.blankBox.Location = New System.Drawing.Point(569, 486)
         Me.blankBox.Name = "blankBox"
         Me.blankBox.Size = New System.Drawing.Size(103, 153)
         Me.blankBox.TabIndex = 19
