@@ -71,7 +71,7 @@ Partial Class Form1
         Me.ResetButton.Name = "ResetButton"
         Me.ResetButton.Size = New System.Drawing.Size(121, 50)
         Me.ResetButton.TabIndex = 0
-        Me.ResetButton.Text = "Reset"
+        Me.ResetButton.Text = "Shuffle"
         Me.ResetButton.UseVisualStyleBackColor = False
         '
         'PictureBox1
@@ -259,11 +259,11 @@ Partial Class Form1
         Me.tip.AutoSize = True
         Me.tip.Font = New System.Drawing.Font("Poor Richard", 27.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.tip.ForeColor = System.Drawing.Color.Navy
-        Me.tip.Location = New System.Drawing.Point(817, 289)
+        Me.tip.Location = New System.Drawing.Point(793, 289)
         Me.tip.Name = "tip"
-        Me.tip.Size = New System.Drawing.Size(359, 44)
+        Me.tip.Size = New System.Drawing.Size(383, 44)
         Me.tip.TabIndex = 21
-        Me.tip.Text = "Press Reset to play again!"
+        Me.tip.Text = "Press Shuffle to play again!"
         Me.tip.UseWaitCursor = True
         Me.tip.Visible = False
         '
