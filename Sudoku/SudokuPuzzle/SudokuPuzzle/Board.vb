@@ -3,7 +3,7 @@
 
     End Sub
 
-    Private Sub RichTextBox1_TextChanged(sender As Object, e As EventArgs) Handles Cell1_1.TextChanged,
+    Private Sub CheckNumber(sender As Object, e As EventArgs) Handles Cell1_1.TextChanged,
             Cell1_2.TextChanged, Cell1_3.TextChanged, Cell1_4.TextChanged, Cell1_5.TextChanged, Cell1_6.TextChanged, Cell1_7.TextChanged, Cell1_8.TextChanged, Cell1_9.TextChanged,
             Cell2_1.TextChanged, Cell2_2.TextChanged, Cell2_3.TextChanged, Cell2_4.TextChanged, Cell2_5.TextChanged, Cell2_6.TextChanged, Cell2_7.TextChanged, Cell2_8.TextChanged, Cell2_9.TextChanged,
             Cell3_1.TextChanged, Cell3_2.TextChanged, Cell3_3.TextChanged, Cell3_4.TextChanged, Cell3_5.TextChanged, Cell3_6.TextChanged, Cell3_7.TextChanged, Cell3_8.TextChanged, Cell3_9.TextChanged,
@@ -17,11 +17,9 @@
 
     End Sub
 
-    Private Sub EasyDiff_CheckedChanged(sender As Object, e As EventArgs) Handles EasyDiff.CheckedChanged
+    ''Private Sub LoadBoard(ByVal board As Array, ByVal fileName As String)
 
-    End Sub
-
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles DiffChoose.Click
+    Private Sub ChooseDifficulty(sender As Object, e As EventArgs) Handles DiffChoose.Click
         Select Case True
             Case EasyDiff.Checked
                 TextBox1.Visible = True
@@ -46,4 +44,8 @@
         Cell1_1.Text = 1
     End Sub
 
+End Class
+
+Public Class GlobalVariable
+    Public Shared AnsBoard(,) As Integer = New Integer(9, 9) {}
 End Class
