@@ -151,9 +151,15 @@
         '    Case "Cell2_9"
         '        TextBox2.Visible = True
         'End Select
+
+        CheckWin()
     End Sub
 
     Private Sub CheckNum()
+
+    End Sub
+
+    Private Sub CheckWin()
 
     End Sub
 
