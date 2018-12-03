@@ -29,9 +29,6 @@ Partial Class Board
         Me.MedDiff = New System.Windows.Forms.RadioButton()
         Me.HardDiff = New System.Windows.Forms.RadioButton()
         Me.DiffChoose = New System.Windows.Forms.Button()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
-        Me.TextBox3 = New System.Windows.Forms.TextBox()
-        Me.TextBox4 = New System.Windows.Forms.TextBox()
         Me.Cell9_1 = New System.Windows.Forms.RichTextBox()
         Me.Cell9_2 = New System.Windows.Forms.RichTextBox()
         Me.Cell9_3 = New System.Windows.Forms.RichTextBox()
@@ -113,7 +110,7 @@ Partial Class Board
         Me.Cell8_8 = New System.Windows.Forms.RichTextBox()
         Me.Cell8_9 = New System.Windows.Forms.RichTextBox()
         Me.Cell1_1 = New System.Windows.Forms.RichTextBox()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.ChooseDiifWarning = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -130,6 +127,7 @@ Partial Class Board
         'EasyDiff
         '
         Me.EasyDiff.AutoSize = True
+        Me.EasyDiff.BackColor = System.Drawing.SystemColors.Window
         Me.EasyDiff.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.EasyDiff.Location = New System.Drawing.Point(898, 85)
         Me.EasyDiff.Name = "EasyDiff"
@@ -137,11 +135,12 @@ Partial Class Board
         Me.EasyDiff.TabIndex = 83
         Me.EasyDiff.TabStop = True
         Me.EasyDiff.Text = "Easy"
-        Me.EasyDiff.UseVisualStyleBackColor = True
+        Me.EasyDiff.UseVisualStyleBackColor = False
         '
         'Label1
         '
         Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.SystemColors.Window
         Me.Label1.Font = New System.Drawing.Font("Verdana", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(873, 34)
         Me.Label1.Name = "Label1"
@@ -152,6 +151,7 @@ Partial Class Board
         'MedDiff
         '
         Me.MedDiff.AutoSize = True
+        Me.MedDiff.BackColor = System.Drawing.SystemColors.Window
         Me.MedDiff.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.MedDiff.Location = New System.Drawing.Point(898, 122)
         Me.MedDiff.Name = "MedDiff"
@@ -159,11 +159,12 @@ Partial Class Board
         Me.MedDiff.TabIndex = 85
         Me.MedDiff.TabStop = True
         Me.MedDiff.Text = "Medium"
-        Me.MedDiff.UseVisualStyleBackColor = True
+        Me.MedDiff.UseVisualStyleBackColor = False
         '
         'HardDiff
         '
         Me.HardDiff.AutoSize = True
+        Me.HardDiff.BackColor = System.Drawing.SystemColors.Window
         Me.HardDiff.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.HardDiff.Location = New System.Drawing.Point(898, 157)
         Me.HardDiff.Name = "HardDiff"
@@ -171,7 +172,7 @@ Partial Class Board
         Me.HardDiff.TabIndex = 86
         Me.HardDiff.TabStop = True
         Me.HardDiff.Text = "Hard"
-        Me.HardDiff.UseVisualStyleBackColor = True
+        Me.HardDiff.UseVisualStyleBackColor = False
         '
         'DiffChoose
         '
@@ -182,33 +183,6 @@ Partial Class Board
         Me.DiffChoose.TabIndex = 87
         Me.DiffChoose.Text = "Choose"
         Me.DiffChoose.UseVisualStyleBackColor = True
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Location = New System.Drawing.Point(889, 301)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox2.TabIndex = 89
-        Me.TextBox2.Text = "Med chosen"
-        Me.TextBox2.Visible = False
-        '
-        'TextBox3
-        '
-        Me.TextBox3.Location = New System.Drawing.Point(889, 328)
-        Me.TextBox3.Name = "TextBox3"
-        Me.TextBox3.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox3.TabIndex = 90
-        Me.TextBox3.Text = "Hard chosen"
-        Me.TextBox3.Visible = False
-        '
-        'TextBox4
-        '
-        Me.TextBox4.Location = New System.Drawing.Point(889, 355)
-        Me.TextBox4.Name = "TextBox4"
-        Me.TextBox4.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox4.TabIndex = 91
-        Me.TextBox4.Text = "You must choose a difficulty!"
-        Me.TextBox4.Visible = False
         '
         'Cell9_1
         '
@@ -1344,14 +1318,16 @@ Partial Class Board
         Me.Cell1_1.TabIndex = 2
         Me.Cell1_1.Text = ""
         '
-        'TextBox1
+        'ChooseDiifWarning
         '
-        Me.TextBox1.Location = New System.Drawing.Point(889, 274)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
-        Me.TextBox1.TabIndex = 93
-        Me.TextBox1.Text = "Easy chosen"
-        Me.TextBox1.Visible = False
+        Me.ChooseDiifWarning.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.ChooseDiifWarning.ForeColor = System.Drawing.Color.DarkRed
+        Me.ChooseDiifWarning.Location = New System.Drawing.Point(898, 250)
+        Me.ChooseDiifWarning.Name = "ChooseDiifWarning"
+        Me.ChooseDiifWarning.Size = New System.Drawing.Size(317, 33)
+        Me.ChooseDiifWarning.TabIndex = 91
+        Me.ChooseDiifWarning.Text = "You must choose a difficulty!"
+        Me.ChooseDiifWarning.Visible = False
         '
         'Board
         '
@@ -1360,10 +1336,7 @@ Partial Class Board
         Me.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1244, 876)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.TextBox4)
-        Me.Controls.Add(Me.TextBox3)
-        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.ChooseDiifWarning)
         Me.Controls.Add(Me.DiffChoose)
         Me.Controls.Add(Me.HardDiff)
         Me.Controls.Add(Me.MedDiff)
@@ -1465,9 +1438,6 @@ Partial Class Board
     Friend WithEvents MedDiff As RadioButton
     Friend WithEvents HardDiff As RadioButton
     Friend WithEvents DiffChoose As Button
-    Friend WithEvents TextBox2 As TextBox
-    Friend WithEvents TextBox3 As TextBox
-    Friend WithEvents TextBox4 As TextBox
     Friend WithEvents Cell9_1 As RichTextBox
     Friend WithEvents Cell9_2 As RichTextBox
     Friend WithEvents Cell9_3 As RichTextBox
@@ -1549,5 +1519,5 @@ Partial Class Board
     Friend WithEvents Cell8_8 As RichTextBox
     Friend WithEvents Cell8_9 As RichTextBox
     Friend WithEvents Cell1_1 As RichTextBox
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents ChooseDiifWarning As TextBox
 End Class

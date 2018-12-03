@@ -3,7 +3,99 @@
 
     End Sub
 
-    Private Sub CheckNumber(sender As Object, e As EventArgs) Handles Cell1_1.TextChanged,
+    Private Sub ChooseDifficulty(sender As Object, e As EventArgs) Handles DiffChoose.Click
+        Select Case True
+            Case EasyDiff.Checked
+                HideDiff()
+                LoadBoard(GlobalVariable.AnsBoard, ".\easyKey.csv")
+                LoadBoard(GlobalVariable.GameBoard, ".\easyStart.csv")
+                DrawToBoard(GlobalVariable.GameBoard)
+            Case MedDiff.Checked
+                HideDiff()
+                LoadBoard(GlobalVariable.AnsBoard, ".\mediumKey.csv")
+                LoadBoard(GlobalVariable.GameBoard, ".\mediumStart.csv")
+                DrawToBoard(GlobalVariable.GameBoard)
+                ''Cell1_1.Text = GlobalVariable.AnsBoard(0, 0)
+                ''Cell5_5.Text = GlobalVariable.AnsBoard(4, 4)
+                ''Cell9_9.Text = GlobalVariable.AnsBoard(8, 8)
+            Case HardDiff.Checked
+                HideDiff()
+                LoadBoard(GlobalVariable.AnsBoard, ".\hardKey.csv")
+                LoadBoard(GlobalVariable.GameBoard, ".\hardStart.csv")
+                DrawToBoard(GlobalVariable.GameBoard)
+                ''Cell1_1.Text = GlobalVariable.AnsBoard(0, 0)
+                ''Cell5_5.Text = GlobalVariable.AnsBoard(4, 4)
+                ''Cell9_9.Text = GlobalVariable.AnsBoard(8, 8)
+            Case Else
+                ChooseDiifWarning.Visible = True
+        End Select
+    End Sub
+
+    Private Sub HideDiff()
+        '' Sets the label, radio buttons, and Choose buttons to be invisible
+        Label1.Visible = False
+        EasyDiff.Visible = False
+        MedDiff.Visible = False
+        HardDiff.Visible = False
+        DiffChoose.Visible = False
+        ChooseDiifWarning.Visible = False
+    End Sub
+
+    Private Sub LoadBoard(ByVal board As Array, ByVal fileName As String)
+        Dim rowCount As Integer = 0
+        Dim colCount As Integer = 0
+
+        Using FileReader As New Microsoft.VisualBasic.
+                                    FileIO.TextFieldParser(fileName)
+            FileReader.TextFieldType = FileIO.FieldType.Delimited
+            FileReader.SetDelimiters(",")
+            Dim currentRow As String()
+            While Not FileReader.EndOfData
+                Try
+                    currentRow = FileReader.ReadFields()
+                    Dim currentCol As String
+                    For Each currentCol In currentRow
+                        If (CInt(currentCol) > 0) Then
+                            board(rowCount, colCount) = CInt(currentCol)
+                        End If
+                        colCount += 1
+                    Next
+                    rowCount += 1
+                    colCount = 0
+                Catch ex As Microsoft.VisualBasic.FileIO.MalformedLineException
+                    MsgBox("Line " & ex.Message & "is not valid and will be skipped.")
+                End Try
+            End While
+        End Using
+    End Sub
+
+    Private Sub DrawToBoard(ByVal board As Array)
+        Dim cells() As RichTextBox = New RichTextBox() {
+            Cell1_1, Cell1_2, Cell1_3, Cell1_4, Cell1_5, Cell1_6, Cell1_7, Cell1_8, Cell1_9,
+            Cell2_1, Cell2_2, Cell2_3, Cell2_4, Cell2_5, Cell2_6, Cell2_7, Cell2_8, Cell2_9,
+            Cell3_1, Cell3_2, Cell3_3, Cell3_4, Cell3_5, Cell3_6, Cell3_7, Cell3_8, Cell3_9,
+            Cell4_1, Cell4_2, Cell4_3, Cell4_4, Cell4_5, Cell4_6, Cell4_7, Cell4_8, Cell4_9,
+            Cell5_1, Cell5_2, Cell5_3, Cell5_4, Cell5_5, Cell5_6, Cell5_7, Cell5_8, Cell5_9,
+            Cell6_1, Cell6_2, Cell6_3, Cell6_4, Cell6_5, Cell6_6, Cell6_7, Cell6_8, Cell6_9,
+            Cell7_1, Cell7_2, Cell7_3, Cell7_4, Cell7_5, Cell7_6, Cell7_7, Cell7_8, Cell7_9,
+            Cell8_1, Cell8_2, Cell8_3, Cell8_4, Cell8_5, Cell8_6, Cell8_7, Cell8_8, Cell8_9,
+            Cell9_1, Cell9_2, Cell9_3, Cell9_4, Cell9_5, Cell9_6, Cell9_7, Cell9_8, Cell9_9}
+        Dim rowCount As Integer = 0
+        Dim colCount As Integer = 0
+
+        For Each cell As RichTextBox In cells
+            If (board(rowCount, colCount) <> 0) Then
+                cell.Text = board(rowCount, colCount)
+            End If
+            colCount += 1
+            If (colCount > 8) Then
+                colCount = 0
+                rowCount += 1
+            End If
+        Next
+    End Sub
+
+    Private Sub NumberInputted(sender As Object, e As EventArgs) Handles Cell1_1.TextChanged,
             Cell1_2.TextChanged, Cell1_3.TextChanged, Cell1_4.TextChanged, Cell1_5.TextChanged, Cell1_6.TextChanged, Cell1_7.TextChanged, Cell1_8.TextChanged, Cell1_9.TextChanged,
             Cell2_1.TextChanged, Cell2_2.TextChanged, Cell2_3.TextChanged, Cell2_4.TextChanged, Cell2_5.TextChanged, Cell2_6.TextChanged, Cell2_7.TextChanged, Cell2_8.TextChanged, Cell2_9.TextChanged,
             Cell3_1.TextChanged, Cell3_2.TextChanged, Cell3_3.TextChanged, Cell3_4.TextChanged, Cell3_5.TextChanged, Cell3_6.TextChanged, Cell3_7.TextChanged, Cell3_8.TextChanged, Cell3_9.TextChanged,
@@ -17,35 +109,9 @@
 
     End Sub
 
-    ''Private Sub LoadBoard(ByVal board As Array, ByVal fileName As String)
-
-    Private Sub ChooseDifficulty(sender As Object, e As EventArgs) Handles DiffChoose.Click
-        Select Case True
-            Case EasyDiff.Checked
-                TextBox1.Visible = True
-                HideDiff()
-            Case MedDiff.Checked
-                TextBox2.Visible = True
-                HideDiff()
-            Case HardDiff.Checked
-                TextBox3.Visible = True
-                HideDiff()
-            Case Else
-                TextBox4.Visible = True
-        End Select
-    End Sub
-
-    Private Sub HideDiff()
-        Label1.Visible = False
-        EasyDiff.Visible = False
-        MedDiff.Visible = False
-        HardDiff.Visible = False
-        DiffChoose.Visible = False
-        Cell1_1.Text = 1
-    End Sub
-
 End Class
 
 Public Class GlobalVariable
     Public Shared AnsBoard(,) As Integer = New Integer(9, 9) {}
+    Public Shared GameBoard(,) As Integer = New Integer(9, 9) {}
 End Class
