@@ -111,6 +111,8 @@ Partial Class Board
         Me.Cell8_9 = New System.Windows.Forms.RichTextBox()
         Me.Cell1_1 = New System.Windows.Forms.RichTextBox()
         Me.ChooseDiifWarning = New System.Windows.Forms.TextBox()
+        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.TextBox2 = New System.Windows.Forms.TextBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -1329,6 +1331,24 @@ Partial Class Board
         Me.ChooseDiifWarning.Text = "You must choose a difficulty!"
         Me.ChooseDiifWarning.Visible = False
         '
+        'TextBox1
+        '
+        Me.TextBox1.Location = New System.Drawing.Point(922, 364)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox1.TabIndex = 92
+        Me.TextBox1.Text = "First row"
+        Me.TextBox1.Visible = False
+        '
+        'TextBox2
+        '
+        Me.TextBox2.Location = New System.Drawing.Point(922, 405)
+        Me.TextBox2.Name = "TextBox2"
+        Me.TextBox2.Size = New System.Drawing.Size(100, 20)
+        Me.TextBox2.TabIndex = 93
+        Me.TextBox2.Text = "Second row"
+        Me.TextBox2.Visible = False
+        '
         'Board
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -1336,6 +1356,8 @@ Partial Class Board
         Me.BackColor = System.Drawing.SystemColors.ButtonFace
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
         Me.ClientSize = New System.Drawing.Size(1244, 876)
+        Me.Controls.Add(Me.TextBox2)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ChooseDiifWarning)
         Me.Controls.Add(Me.DiffChoose)
         Me.Controls.Add(Me.HardDiff)
@@ -1520,4 +1542,6 @@ Partial Class Board
     Friend WithEvents Cell8_9 As RichTextBox
     Friend WithEvents Cell1_1 As RichTextBox
     Friend WithEvents ChooseDiifWarning As TextBox
+    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents TextBox2 As TextBox
 End Class

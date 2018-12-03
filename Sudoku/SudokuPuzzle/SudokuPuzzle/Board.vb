@@ -4,6 +4,8 @@
     End Sub
 
     Private Sub ChooseDifficulty(sender As Object, e As EventArgs) Handles DiffChoose.Click
+        'Checks which radio button is selected and loads the boards with the appropriate files
+        'If button is chosen with no difficulty set, a warning will appear
         Select Case True
             Case EasyDiff.Checked
                 HideDiff()
@@ -15,24 +17,18 @@
                 LoadBoard(GlobalVariable.AnsBoard, ".\mediumKey.csv")
                 LoadBoard(GlobalVariable.GameBoard, ".\mediumStart.csv")
                 DrawToBoard(GlobalVariable.GameBoard)
-                ''Cell1_1.Text = GlobalVariable.AnsBoard(0, 0)
-                ''Cell5_5.Text = GlobalVariable.AnsBoard(4, 4)
-                ''Cell9_9.Text = GlobalVariable.AnsBoard(8, 8)
             Case HardDiff.Checked
                 HideDiff()
                 LoadBoard(GlobalVariable.AnsBoard, ".\hardKey.csv")
                 LoadBoard(GlobalVariable.GameBoard, ".\hardStart.csv")
                 DrawToBoard(GlobalVariable.GameBoard)
-                ''Cell1_1.Text = GlobalVariable.AnsBoard(0, 0)
-                ''Cell5_5.Text = GlobalVariable.AnsBoard(4, 4)
-                ''Cell9_9.Text = GlobalVariable.AnsBoard(8, 8)
             Case Else
                 ChooseDiifWarning.Visible = True
         End Select
     End Sub
 
     Private Sub HideDiff()
-        '' Sets the label, radio buttons, and Choose buttons to be invisible
+        ' Sets the label, radio buttons, Choose button, and warning label to be invisible
         Label1.Visible = False
         EasyDiff.Visible = False
         MedDiff.Visible = False
@@ -45,6 +41,7 @@
         Dim rowCount As Integer = 0
         Dim colCount As Integer = 0
 
+        'Reads the files and stores the values into the array
         Using FileReader As New Microsoft.VisualBasic.
                                     FileIO.TextFieldParser(fileName)
             FileReader.TextFieldType = FileIO.FieldType.Delimited
@@ -58,8 +55,11 @@
                         If (CInt(currentCol) > 0) Then
                             board(rowCount, colCount) = CInt(currentCol)
                         End If
+                        'Increment colCount after each value
                         colCount += 1
                     Next
+                    'Increment rowCount after it finished reading one row
+                    'Also resets colCount to avoid error going out of bounds
                     rowCount += 1
                     colCount = 0
                 Catch ex As Microsoft.VisualBasic.FileIO.MalformedLineException
@@ -84,11 +84,17 @@
         Dim colCount As Integer = 0
 
         For Each cell As RichTextBox In cells
+            'If value in array is not 0, then set the text of the board to be that value
+            'Also sets other settings so that user can't change those values
             If (board(rowCount, colCount) <> 0) Then
                 cell.Text = board(rowCount, colCount)
+                cell.ReadOnly = True
+                cell.Cursor = DefaultCursor
             End If
             colCount += 1
-            If (colCount > 8) Then
+            'Basically checks if colCount reaches the max bound
+            'If so, reset col counter and increment row counter
+            If (colCount = board.GetUpperBound(0)) Then
                 colCount = 0
                 rowCount += 1
             End If
@@ -106,6 +112,48 @@
             Cell8_1.TextChanged, Cell8_2.TextChanged, Cell8_3.TextChanged, Cell8_4.TextChanged, Cell8_5.TextChanged, Cell8_6.TextChanged, Cell8_7.TextChanged, Cell8_8.TextChanged, Cell8_9.TextChanged,
             Cell9_1.TextChanged, Cell9_2.TextChanged, Cell9_3.TextChanged, Cell9_4.TextChanged, Cell9_5.TextChanged, Cell9_6.TextChanged, Cell9_7.TextChanged, Cell9_8.TextChanged, Cell9_9.TextChanged
 
+        'TO DO: 
+        'When user inputs a value, it must update the value in GameBoard array
+        'Have a helper function that will first check if input is valid
+
+        Dim cell As RichTextBox = CType(sender, RichTextBox)
+        If (cell.Name = "Cell1_1" Or cell.Name = "Cell1_2" Or cell.Name = "Cell1_3" Or cell.Name = "Cell1_4" Or cell.Name = "Cell1_5" Or cell.Name = "Cell1_6" Or cell.Name = "Cell1_7" Or cell.Name = "Cell1_8" Or cell.Name = "Cell1_9") Then
+            TextBox1.Visible = Not (TextBox1.Visible)
+            TextBox1.Text = cell.Text
+        End If
+        'Select Case cell.Name
+        '    Case "Cell1_1"
+
+        '    Case "Cell1_2"
+
+        '    Case "Cell1_3"
+
+        '    Case "Cell1_4"
+
+        '    Case "Cell1_5"
+
+        '    Case "Cell1_6"
+
+        '    Case "Cell1_7"
+
+        '    Case "Cell1_8"
+
+        '    Case "Cell1_9"
+
+        '    Case "Cell2_1"
+        '    Case "Cell2_2"
+        '    Case "Cell2_3"
+        '    Case "Cell2_4"
+        '    Case "Cell2_5"
+        '    Case "Cell2_6"
+        '    Case "Cell2_7"
+        '    Case "Cell2_8"
+        '    Case "Cell2_9"
+        '        TextBox2.Visible = True
+        'End Select
+    End Sub
+
+    Private Sub CheckNum()
 
     End Sub
 
