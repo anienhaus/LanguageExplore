@@ -138,15 +138,18 @@
         Dim colNum As Integer = CInt(cell.Name.Substring(6, 1))
         Dim value As String = cell.Text
 
+        'Checks if user inputs a valid number
         If (IsNumeric(value)) Then
             CheckNum(rowNum, colNum, CInt(value))
         ElseIf (value = "") Then
+            'Handles conversion of "" to Integer error
             cell.Text = ""
         Else
             MsgBox("You must input a valid number.")
             cell.Text = ""
         End If
 
+        'Checks if it is win condition after each textbox change
         If (CheckWin()) Then
             Dim tryAgain As Integer = MessageBox.Show("You solved the puzzle with only " + Mistake_Value.Text + " mistakes. Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo)
             If (tryAgain = DialogResult.Yes) Then
