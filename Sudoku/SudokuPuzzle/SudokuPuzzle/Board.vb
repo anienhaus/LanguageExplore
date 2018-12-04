@@ -124,27 +124,27 @@
         Dim value As String = cell.Text
 
         If (IsNumeric(value)) Then
-
+            CheckNum(rowNum, colNum, CInt(value))
+        ElseIf (value = "") Then
+            cell.Text = ""
+        Else
+            MsgBox("You must input a valid number.")
+            cell.Text = ""
         End If
-
-        CheckNum(rowNum, colNum, value)
-
-        TextBox1.Text = rowNum
-        'TextBox2.Text = colNum
 
         CheckWin()
     End Sub
 
     Private Sub CheckNum(ByVal rowNum As Integer, ByVal colNum As Integer, ByVal val As Integer)
-        'Check row
-        'for i as int for 0 to 9
-        ' if (GameBoard(i, colNum) = val))
+        If (GlobalVariable.AnsBoard(rowNum, colNum) <> val) Then
+            'Increment mistakes textbox
 
-        'if (GameBoard(rowNUm, i) = val))
-
-        ' if rowNum = 0 or = 1 or = 2
-
-        'else if rownum = 3 or 4 or 5
+            'Display error message
+            MsgBox("You got the wrong number bich")
+        Else
+            GlobalVariable.GameBoard(rowNum, colNum) = val
+            TextBox1.Text = GlobalVariable.GameBoard(rowNum, colNum)
+        End If
 
     End Sub
 
