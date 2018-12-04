@@ -28,13 +28,30 @@
     End Sub
 
     Private Sub HideDiff()
-        ' Sets the label, radio buttons, Choose button, and warning label to be invisible
+        'Sets the label, radio buttons, Choose button, and warning label to be invisible
         Label1.Visible = False
         EasyDiff.Visible = False
         MedDiff.Visible = False
         HardDiff.Visible = False
         DiffChoose.Visible = False
         ChooseDiifWarning.Visible = False
+        Mistake_Label.Visible = True
+        Mistake_Value.Visible = True
+    End Sub
+
+    Private Sub ShowDiff()
+        'Resets the values changed in HideDiff
+        Label1.Visible = True
+        EasyDiff.Visible = True
+        MedDiff.Visible = True
+        HardDiff.Visible = True
+        DiffChoose.Visible = True
+        ChooseDiifWarning.Visible = True
+        Mistake_Label.Visible = False
+        Mistake_Value.Visible = False
+        EasyDiff.Checked = False
+        MedDiff.Checked = False
+        HardDiff.Checked = False
     End Sub
 
     Private Sub LoadBoard(ByVal board As Array, ByVal fileName As String)
@@ -89,7 +106,7 @@
             If (board(rowCount, colCount) <> 0) Then
                 cell.Text = board(rowCount, colCount)
                 cell.ReadOnly = True
-                cell.Cursor = DefaultCursor
+                cell.Cursor = Cursors.Default
                 cell.ForeColor = Color.PaleVioletRed
             End If
             colCount += 1
@@ -113,11 +130,6 @@
             Cell7_0.TextChanged, Cell7_1.TextChanged, Cell7_2.TextChanged, Cell7_3.TextChanged, Cell7_4.TextChanged, Cell7_5.TextChanged, Cell7_6.TextChanged, Cell7_7.TextChanged, Cell7_8.TextChanged,
             Cell8_0.TextChanged, Cell8_1.TextChanged, Cell8_2.TextChanged, Cell8_3.TextChanged, Cell8_4.TextChanged, Cell8_5.TextChanged, Cell8_6.TextChanged, Cell8_7.TextChanged, Cell8_8.TextChanged
 
-        'TO DO: 
-        'Check against AnsBoard. If right, update GameBoard. Else display error message
-        'When user inputs a value, it must update the value in GameBoard array
-
-        'Cell0_0
         Dim cell As RichTextBox = CType(sender, RichTextBox)
         Dim rowNum As Integer = CInt(cell.Name.Substring(4, 1))
         Dim colNum As Integer = CInt(cell.Name.Substring(6, 1))
@@ -132,24 +144,72 @@
             cell.Text = ""
         End If
 
-        CheckWin()
+        If (CheckWin()) Then
+            Dim tryAgain As Integer = MessageBox.Show("You solved the puzzle with only " + Mistake_Value.Text + " mistakes. Would you like to try again?", "Congrats!", MessageBoxButtons.YesNo)
+            If (tryAgain = DialogResult.Yes) Then
+                ResetGame()
+            ElseIf (tryAgain = DialogResult.No) Then
+                Close()
+            End If
+        End If
     End Sub
 
     Private Sub CheckNum(ByVal rowNum As Integer, ByVal colNum As Integer, ByVal val As Integer)
         If (GlobalVariable.AnsBoard(rowNum, colNum) <> val) Then
             'Increment mistakes textbox
-
+            Mistake_Value.Text = Mistake_Value.Text + 1
             'Display error message
-            MsgBox("You got the wrong number bich")
+            'MsgBox("You got the wrong number bich")
+            MsgBox("Value does not match answer key.")
         Else
             GlobalVariable.GameBoard(rowNum, colNum) = val
-            TextBox1.Text = GlobalVariable.GameBoard(rowNum, colNum)
         End If
 
     End Sub
 
-    Private Sub CheckWin()
+    Function CheckWin() As Boolean
+        Dim counter As Integer = 0
+        Dim cells() As RichTextBox = New RichTextBox() {
+            Cell0_0, Cell0_1, Cell0_2, Cell0_3, Cell0_4, Cell0_5, Cell0_6, Cell0_7, Cell0_8,
+            Cell1_0, Cell1_1, Cell1_2, Cell1_3, Cell1_4, Cell1_5, Cell1_6, Cell1_7, Cell1_8,
+            Cell2_0, Cell2_1, Cell2_2, Cell2_3, Cell2_4, Cell2_5, Cell2_6, Cell2_7, Cell2_8,
+            Cell3_0, Cell3_1, Cell3_2, Cell3_3, Cell3_4, Cell3_5, Cell3_6, Cell3_7, Cell3_8,
+            Cell4_0, Cell4_1, Cell4_2, Cell4_3, Cell4_4, Cell4_5, Cell4_6, Cell4_7, Cell4_8,
+            Cell5_0, Cell5_1, Cell5_2, Cell5_3, Cell5_4, Cell5_5, Cell5_6, Cell5_7, Cell5_8,
+            Cell6_0, Cell6_1, Cell6_2, Cell6_3, Cell6_4, Cell6_5, Cell6_6, Cell6_7, Cell6_8,
+            Cell7_0, Cell7_1, Cell7_2, Cell7_3, Cell7_4, Cell7_5, Cell7_6, Cell7_7, Cell7_8,
+            Cell8_0, Cell8_1, Cell8_2, Cell8_3, Cell8_4, Cell8_5, Cell8_6, Cell8_7, Cell8_8}
 
+        For Each cell As RichTextBox In cells
+            If (cell.Text <> "") Then
+                counter += 1
+            End If
+        Next
+
+        Return (counter = cells.Length)
+    End Function
+
+    Private Sub ResetGame()
+        ShowDiff()
+        Mistake_Value.Text = 0
+        Array.Clear(GlobalVariable.AnsBoard, 0, GlobalVariable.AnsBoard.Length)
+        Array.Clear(GlobalVariable.GameBoard, 0, GlobalVariable.GameBoard.Length)
+        Dim cells() As RichTextBox = New RichTextBox() {
+            Cell0_0, Cell0_1, Cell0_2, Cell0_3, Cell0_4, Cell0_5, Cell0_6, Cell0_7, Cell0_8,
+            Cell1_0, Cell1_1, Cell1_2, Cell1_3, Cell1_4, Cell1_5, Cell1_6, Cell1_7, Cell1_8,
+            Cell2_0, Cell2_1, Cell2_2, Cell2_3, Cell2_4, Cell2_5, Cell2_6, Cell2_7, Cell2_8,
+            Cell3_0, Cell3_1, Cell3_2, Cell3_3, Cell3_4, Cell3_5, Cell3_6, Cell3_7, Cell3_8,
+            Cell4_0, Cell4_1, Cell4_2, Cell4_3, Cell4_4, Cell4_5, Cell4_6, Cell4_7, Cell4_8,
+            Cell5_0, Cell5_1, Cell5_2, Cell5_3, Cell5_4, Cell5_5, Cell5_6, Cell5_7, Cell5_8,
+            Cell6_0, Cell6_1, Cell6_2, Cell6_3, Cell6_4, Cell6_5, Cell6_6, Cell6_7, Cell6_8,
+            Cell7_0, Cell7_1, Cell7_2, Cell7_3, Cell7_4, Cell7_5, Cell7_6, Cell7_7, Cell7_8,
+            Cell8_0, Cell8_1, Cell8_2, Cell8_3, Cell8_4, Cell8_5, Cell8_6, Cell8_7, Cell8_8}
+        For Each cell As RichTextBox In cells
+            cell.Text = ""
+            cell.ReadOnly = False
+            cell.Cursor = Cursors.IBeam
+            cell.ForeColor = Color.SeaGreen
+        Next
     End Sub
 
 End Class
