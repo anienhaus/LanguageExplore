@@ -90,6 +90,7 @@
                 cell.Text = board(rowCount, colCount)
                 cell.ReadOnly = True
                 cell.Cursor = DefaultCursor
+                cell.ForeColor = Color.PaleVioletRed
             End If
             colCount += 1
             'Basically checks if colCount reaches the max bound
@@ -113,49 +114,37 @@
             Cell8_0.TextChanged, Cell8_1.TextChanged, Cell8_2.TextChanged, Cell8_3.TextChanged, Cell8_4.TextChanged, Cell8_5.TextChanged, Cell8_6.TextChanged, Cell8_7.TextChanged, Cell8_8.TextChanged
 
         'TO DO: 
+        'Check against AnsBoard. If right, update GameBoard. Else display error message
         'When user inputs a value, it must update the value in GameBoard array
-        'Have a helper function that will first check if input is valid
 
+        'Cell0_0
         Dim cell As RichTextBox = CType(sender, RichTextBox)
-        If (cell.Name = "Cell1_1" Or cell.Name = "Cell1_2" Or cell.Name = "Cell1_3" Or cell.Name = "Cell1_4" Or cell.Name = "Cell1_5" Or cell.Name = "Cell1_6" Or cell.Name = "Cell1_7" Or cell.Name = "Cell1_8" Or cell.Name = "Cell1_9") Then
-            TextBox1.Visible = Not (TextBox1.Visible)
-            TextBox1.Text = cell.Text
+        Dim rowNum As Integer = CInt(cell.Name.Substring(4, 1))
+        Dim colNum As Integer = CInt(cell.Name.Substring(6, 1))
+        Dim value As String = cell.Text
+
+        If (IsNumeric(value)) Then
+
         End If
-        'Select Case cell.Name
-        '    Case "Cell1_1"
 
-        '    Case "Cell1_2"
+        CheckNum(rowNum, colNum, value)
 
-        '    Case "Cell1_3"
-
-        '    Case "Cell1_4"
-
-        '    Case "Cell1_5"
-
-        '    Case "Cell1_6"
-
-        '    Case "Cell1_7"
-
-        '    Case "Cell1_8"
-
-        '    Case "Cell1_9"
-
-        '    Case "Cell2_1"
-        '    Case "Cell2_2"
-        '    Case "Cell2_3"
-        '    Case "Cell2_4"
-        '    Case "Cell2_5"
-        '    Case "Cell2_6"
-        '    Case "Cell2_7"
-        '    Case "Cell2_8"
-        '    Case "Cell2_9"
-        '        TextBox2.Visible = True
-        'End Select
+        TextBox1.Text = rowNum
+        'TextBox2.Text = colNum
 
         CheckWin()
     End Sub
 
-    Private Sub CheckNum()
+    Private Sub CheckNum(ByVal rowNum As Integer, ByVal colNum As Integer, ByVal val As Integer)
+        'Check row
+        'for i as int for 0 to 9
+        ' if (GameBoard(i, colNum) = val))
+
+        'if (GameBoard(rowNUm, i) = val))
+
+        ' if rowNum = 0 or = 1 or = 2
+
+        'else if rownum = 3 or 4 or 5
 
     End Sub
 

@@ -186,7 +186,7 @@ Partial Class Board
         Me.DiffChoose.Text = "Choose"
         Me.DiffChoose.UseVisualStyleBackColor = True
         '
-        'Cell9_1
+        'Cell8_0
         '
         Me.Cell8_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -195,12 +195,12 @@ Partial Class Board
         Me.Cell8_0.Location = New System.Drawing.Point(55, 739)
         Me.Cell8_0.MaxLength = 1
         Me.Cell8_0.Multiline = False
-        Me.Cell8_0.Name = "Cell9_1"
+        Me.Cell8_0.Name = "Cell8_0"
         Me.Cell8_0.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_0.TabIndex = 74
         Me.Cell8_0.Text = ""
         '
-        'Cell9_2
+        'Cell8_1
         '
         Me.Cell8_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -209,12 +209,12 @@ Partial Class Board
         Me.Cell8_1.Location = New System.Drawing.Point(142, 739)
         Me.Cell8_1.MaxLength = 1
         Me.Cell8_1.Multiline = False
-        Me.Cell8_1.Name = "Cell9_2"
+        Me.Cell8_1.Name = "Cell8_1"
         Me.Cell8_1.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_1.TabIndex = 75
         Me.Cell8_1.Text = ""
         '
-        'Cell9_3
+        'Cell8_2
         '
         Me.Cell8_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -223,12 +223,12 @@ Partial Class Board
         Me.Cell8_2.Location = New System.Drawing.Point(230, 739)
         Me.Cell8_2.MaxLength = 1
         Me.Cell8_2.Multiline = False
-        Me.Cell8_2.Name = "Cell9_3"
+        Me.Cell8_2.Name = "Cell8_2"
         Me.Cell8_2.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_2.TabIndex = 76
         Me.Cell8_2.Text = ""
         '
-        'Cell9_4
+        'Cell8_3
         '
         Me.Cell8_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -237,12 +237,12 @@ Partial Class Board
         Me.Cell8_3.Location = New System.Drawing.Point(319, 739)
         Me.Cell8_3.MaxLength = 1
         Me.Cell8_3.Multiline = False
-        Me.Cell8_3.Name = "Cell9_4"
+        Me.Cell8_3.Name = "Cell8_3"
         Me.Cell8_3.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_3.TabIndex = 77
         Me.Cell8_3.Text = ""
         '
-        'Cell9_5
+        'Cell8_4
         '
         Me.Cell8_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -251,12 +251,12 @@ Partial Class Board
         Me.Cell8_4.Location = New System.Drawing.Point(406, 739)
         Me.Cell8_4.MaxLength = 1
         Me.Cell8_4.Multiline = False
-        Me.Cell8_4.Name = "Cell9_5"
+        Me.Cell8_4.Name = "Cell8_4"
         Me.Cell8_4.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_4.TabIndex = 78
         Me.Cell8_4.Text = ""
         '
-        'Cell9_6
+        'Cell8_5
         '
         Me.Cell8_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -265,12 +265,12 @@ Partial Class Board
         Me.Cell8_5.Location = New System.Drawing.Point(494, 739)
         Me.Cell8_5.MaxLength = 1
         Me.Cell8_5.Multiline = False
-        Me.Cell8_5.Name = "Cell9_6"
+        Me.Cell8_5.Name = "Cell8_5"
         Me.Cell8_5.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_5.TabIndex = 79
         Me.Cell8_5.Text = ""
         '
-        'Cell9_7
+        'Cell8_6
         '
         Me.Cell8_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -279,12 +279,12 @@ Partial Class Board
         Me.Cell8_6.Location = New System.Drawing.Point(583, 739)
         Me.Cell8_6.MaxLength = 1
         Me.Cell8_6.Multiline = False
-        Me.Cell8_6.Name = "Cell9_7"
+        Me.Cell8_6.Name = "Cell8_6"
         Me.Cell8_6.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_6.TabIndex = 80
         Me.Cell8_6.Text = ""
         '
-        'Cell9_8
+        'Cell8_7
         '
         Me.Cell8_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -293,12 +293,12 @@ Partial Class Board
         Me.Cell8_7.Location = New System.Drawing.Point(670, 739)
         Me.Cell8_7.MaxLength = 1
         Me.Cell8_7.Multiline = False
-        Me.Cell8_7.Name = "Cell9_8"
+        Me.Cell8_7.Name = "Cell8_7"
         Me.Cell8_7.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_7.TabIndex = 81
         Me.Cell8_7.Text = ""
         '
-        'Cell9_9
+        'Cell8_8
         '
         Me.Cell8_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell8_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -307,12 +307,12 @@ Partial Class Board
         Me.Cell8_8.Location = New System.Drawing.Point(758, 739)
         Me.Cell8_8.MaxLength = 1
         Me.Cell8_8.Multiline = False
-        Me.Cell8_8.Name = "Cell9_9"
+        Me.Cell8_8.Name = "Cell8_8"
         Me.Cell8_8.Size = New System.Drawing.Size(45, 85)
         Me.Cell8_8.TabIndex = 82
         Me.Cell8_8.Text = ""
         '
-        'Cell1_2
+        'Cell0_1
         '
         Me.Cell0_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -321,12 +321,12 @@ Partial Class Board
         Me.Cell0_1.Location = New System.Drawing.Point(142, 35)
         Me.Cell0_1.MaxLength = 1
         Me.Cell0_1.Multiline = False
-        Me.Cell0_1.Name = "Cell1_2"
+        Me.Cell0_1.Name = "Cell0_1"
         Me.Cell0_1.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_1.TabIndex = 3
         Me.Cell0_1.Text = ""
         '
-        'Cell1_3
+        'Cell0_2
         '
         Me.Cell0_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -335,12 +335,12 @@ Partial Class Board
         Me.Cell0_2.Location = New System.Drawing.Point(230, 35)
         Me.Cell0_2.MaxLength = 1
         Me.Cell0_2.Multiline = False
-        Me.Cell0_2.Name = "Cell1_3"
+        Me.Cell0_2.Name = "Cell0_2"
         Me.Cell0_2.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_2.TabIndex = 4
         Me.Cell0_2.Text = ""
         '
-        'Cell1_4
+        'Cell0_3
         '
         Me.Cell0_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -349,12 +349,12 @@ Partial Class Board
         Me.Cell0_3.Location = New System.Drawing.Point(319, 35)
         Me.Cell0_3.MaxLength = 1
         Me.Cell0_3.Multiline = False
-        Me.Cell0_3.Name = "Cell1_4"
+        Me.Cell0_3.Name = "Cell0_3"
         Me.Cell0_3.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_3.TabIndex = 5
         Me.Cell0_3.Text = ""
         '
-        'Cell1_5
+        'Cell0_4
         '
         Me.Cell0_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -363,12 +363,12 @@ Partial Class Board
         Me.Cell0_4.Location = New System.Drawing.Point(406, 35)
         Me.Cell0_4.MaxLength = 1
         Me.Cell0_4.Multiline = False
-        Me.Cell0_4.Name = "Cell1_5"
+        Me.Cell0_4.Name = "Cell0_4"
         Me.Cell0_4.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_4.TabIndex = 6
         Me.Cell0_4.Text = ""
         '
-        'Cell1_6
+        'Cell0_5
         '
         Me.Cell0_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -377,12 +377,12 @@ Partial Class Board
         Me.Cell0_5.Location = New System.Drawing.Point(494, 35)
         Me.Cell0_5.MaxLength = 1
         Me.Cell0_5.Multiline = False
-        Me.Cell0_5.Name = "Cell1_6"
+        Me.Cell0_5.Name = "Cell0_5"
         Me.Cell0_5.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_5.TabIndex = 7
         Me.Cell0_5.Text = ""
         '
-        'Cell1_7
+        'Cell0_6
         '
         Me.Cell0_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -391,12 +391,12 @@ Partial Class Board
         Me.Cell0_6.Location = New System.Drawing.Point(583, 35)
         Me.Cell0_6.MaxLength = 1
         Me.Cell0_6.Multiline = False
-        Me.Cell0_6.Name = "Cell1_7"
+        Me.Cell0_6.Name = "Cell0_6"
         Me.Cell0_6.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_6.TabIndex = 8
         Me.Cell0_6.Text = ""
         '
-        'Cell1_8
+        'Cell0_7
         '
         Me.Cell0_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -405,12 +405,12 @@ Partial Class Board
         Me.Cell0_7.Location = New System.Drawing.Point(670, 35)
         Me.Cell0_7.MaxLength = 1
         Me.Cell0_7.Multiline = False
-        Me.Cell0_7.Name = "Cell1_8"
+        Me.Cell0_7.Name = "Cell0_7"
         Me.Cell0_7.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_7.TabIndex = 9
         Me.Cell0_7.Text = ""
         '
-        'Cell1_9
+        'Cell0_8
         '
         Me.Cell0_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -419,12 +419,12 @@ Partial Class Board
         Me.Cell0_8.Location = New System.Drawing.Point(758, 35)
         Me.Cell0_8.MaxLength = 1
         Me.Cell0_8.Multiline = False
-        Me.Cell0_8.Name = "Cell1_9"
+        Me.Cell0_8.Name = "Cell0_8"
         Me.Cell0_8.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_8.TabIndex = 10
         Me.Cell0_8.Text = ""
         '
-        'Cell2_1
+        'Cell1_0
         '
         Me.Cell1_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -433,12 +433,12 @@ Partial Class Board
         Me.Cell1_0.Location = New System.Drawing.Point(55, 123)
         Me.Cell1_0.MaxLength = 1
         Me.Cell1_0.Multiline = False
-        Me.Cell1_0.Name = "Cell2_1"
+        Me.Cell1_0.Name = "Cell1_0"
         Me.Cell1_0.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_0.TabIndex = 11
         Me.Cell1_0.Text = ""
         '
-        'Cell2_2
+        'Cell1_1
         '
         Me.Cell1_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -447,12 +447,12 @@ Partial Class Board
         Me.Cell1_1.Location = New System.Drawing.Point(142, 123)
         Me.Cell1_1.MaxLength = 1
         Me.Cell1_1.Multiline = False
-        Me.Cell1_1.Name = "Cell2_2"
+        Me.Cell1_1.Name = "Cell1_1"
         Me.Cell1_1.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_1.TabIndex = 12
         Me.Cell1_1.Text = ""
         '
-        'Cell2_3
+        'Cell1_2
         '
         Me.Cell1_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -461,12 +461,12 @@ Partial Class Board
         Me.Cell1_2.Location = New System.Drawing.Point(230, 123)
         Me.Cell1_2.MaxLength = 1
         Me.Cell1_2.Multiline = False
-        Me.Cell1_2.Name = "Cell2_3"
+        Me.Cell1_2.Name = "Cell1_2"
         Me.Cell1_2.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_2.TabIndex = 13
         Me.Cell1_2.Text = ""
         '
-        'Cell2_4
+        'Cell1_3
         '
         Me.Cell1_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -475,12 +475,12 @@ Partial Class Board
         Me.Cell1_3.Location = New System.Drawing.Point(319, 123)
         Me.Cell1_3.MaxLength = 1
         Me.Cell1_3.Multiline = False
-        Me.Cell1_3.Name = "Cell2_4"
+        Me.Cell1_3.Name = "Cell1_3"
         Me.Cell1_3.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_3.TabIndex = 14
         Me.Cell1_3.Text = ""
         '
-        'Cell2_5
+        'Cell1_4
         '
         Me.Cell1_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -489,12 +489,12 @@ Partial Class Board
         Me.Cell1_4.Location = New System.Drawing.Point(406, 123)
         Me.Cell1_4.MaxLength = 1
         Me.Cell1_4.Multiline = False
-        Me.Cell1_4.Name = "Cell2_5"
+        Me.Cell1_4.Name = "Cell1_4"
         Me.Cell1_4.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_4.TabIndex = 15
         Me.Cell1_4.Text = ""
         '
-        'Cell2_6
+        'Cell1_5
         '
         Me.Cell1_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -503,12 +503,12 @@ Partial Class Board
         Me.Cell1_5.Location = New System.Drawing.Point(494, 123)
         Me.Cell1_5.MaxLength = 1
         Me.Cell1_5.Multiline = False
-        Me.Cell1_5.Name = "Cell2_6"
+        Me.Cell1_5.Name = "Cell1_5"
         Me.Cell1_5.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_5.TabIndex = 16
         Me.Cell1_5.Text = ""
         '
-        'Cell2_7
+        'Cell1_6
         '
         Me.Cell1_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -517,12 +517,12 @@ Partial Class Board
         Me.Cell1_6.Location = New System.Drawing.Point(583, 123)
         Me.Cell1_6.MaxLength = 1
         Me.Cell1_6.Multiline = False
-        Me.Cell1_6.Name = "Cell2_7"
+        Me.Cell1_6.Name = "Cell1_6"
         Me.Cell1_6.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_6.TabIndex = 17
         Me.Cell1_6.Text = ""
         '
-        'Cell2_8
+        'Cell1_7
         '
         Me.Cell1_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -531,12 +531,12 @@ Partial Class Board
         Me.Cell1_7.Location = New System.Drawing.Point(670, 123)
         Me.Cell1_7.MaxLength = 1
         Me.Cell1_7.Multiline = False
-        Me.Cell1_7.Name = "Cell2_8"
+        Me.Cell1_7.Name = "Cell1_7"
         Me.Cell1_7.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_7.TabIndex = 18
         Me.Cell1_7.Text = ""
         '
-        'Cell2_9
+        'Cell1_8
         '
         Me.Cell1_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell1_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -545,12 +545,12 @@ Partial Class Board
         Me.Cell1_8.Location = New System.Drawing.Point(758, 123)
         Me.Cell1_8.MaxLength = 1
         Me.Cell1_8.Multiline = False
-        Me.Cell1_8.Name = "Cell2_9"
+        Me.Cell1_8.Name = "Cell1_8"
         Me.Cell1_8.Size = New System.Drawing.Size(45, 85)
         Me.Cell1_8.TabIndex = 19
         Me.Cell1_8.Text = ""
         '
-        'Cell3_1
+        'Cell2_0
         '
         Me.Cell2_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -559,12 +559,12 @@ Partial Class Board
         Me.Cell2_0.Location = New System.Drawing.Point(55, 211)
         Me.Cell2_0.MaxLength = 1
         Me.Cell2_0.Multiline = False
-        Me.Cell2_0.Name = "Cell3_1"
+        Me.Cell2_0.Name = "Cell2_0"
         Me.Cell2_0.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_0.TabIndex = 20
         Me.Cell2_0.Text = ""
         '
-        'Cell3_2
+        'Cell2_1
         '
         Me.Cell2_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -573,12 +573,12 @@ Partial Class Board
         Me.Cell2_1.Location = New System.Drawing.Point(142, 211)
         Me.Cell2_1.MaxLength = 1
         Me.Cell2_1.Multiline = False
-        Me.Cell2_1.Name = "Cell3_2"
+        Me.Cell2_1.Name = "Cell2_1"
         Me.Cell2_1.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_1.TabIndex = 21
         Me.Cell2_1.Text = ""
         '
-        'Cell3_3
+        'Cell2_2
         '
         Me.Cell2_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -587,12 +587,12 @@ Partial Class Board
         Me.Cell2_2.Location = New System.Drawing.Point(230, 211)
         Me.Cell2_2.MaxLength = 1
         Me.Cell2_2.Multiline = False
-        Me.Cell2_2.Name = "Cell3_3"
+        Me.Cell2_2.Name = "Cell2_2"
         Me.Cell2_2.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_2.TabIndex = 22
         Me.Cell2_2.Text = ""
         '
-        'Cell3_4
+        'Cell2_3
         '
         Me.Cell2_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -601,12 +601,12 @@ Partial Class Board
         Me.Cell2_3.Location = New System.Drawing.Point(319, 211)
         Me.Cell2_3.MaxLength = 1
         Me.Cell2_3.Multiline = False
-        Me.Cell2_3.Name = "Cell3_4"
+        Me.Cell2_3.Name = "Cell2_3"
         Me.Cell2_3.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_3.TabIndex = 23
         Me.Cell2_3.Text = ""
         '
-        'Cell3_5
+        'Cell2_4
         '
         Me.Cell2_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -615,12 +615,12 @@ Partial Class Board
         Me.Cell2_4.Location = New System.Drawing.Point(406, 211)
         Me.Cell2_4.MaxLength = 1
         Me.Cell2_4.Multiline = False
-        Me.Cell2_4.Name = "Cell3_5"
+        Me.Cell2_4.Name = "Cell2_4"
         Me.Cell2_4.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_4.TabIndex = 24
         Me.Cell2_4.Text = ""
         '
-        'Cell3_6
+        'Cell2_5
         '
         Me.Cell2_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -629,12 +629,12 @@ Partial Class Board
         Me.Cell2_5.Location = New System.Drawing.Point(494, 211)
         Me.Cell2_5.MaxLength = 1
         Me.Cell2_5.Multiline = False
-        Me.Cell2_5.Name = "Cell3_6"
+        Me.Cell2_5.Name = "Cell2_5"
         Me.Cell2_5.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_5.TabIndex = 25
         Me.Cell2_5.Text = ""
         '
-        'Cell3_7
+        'Cell2_6
         '
         Me.Cell2_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -643,12 +643,12 @@ Partial Class Board
         Me.Cell2_6.Location = New System.Drawing.Point(583, 211)
         Me.Cell2_6.MaxLength = 1
         Me.Cell2_6.Multiline = False
-        Me.Cell2_6.Name = "Cell3_7"
+        Me.Cell2_6.Name = "Cell2_6"
         Me.Cell2_6.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_6.TabIndex = 26
         Me.Cell2_6.Text = ""
         '
-        'Cell3_8
+        'Cell2_7
         '
         Me.Cell2_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -657,12 +657,12 @@ Partial Class Board
         Me.Cell2_7.Location = New System.Drawing.Point(670, 211)
         Me.Cell2_7.MaxLength = 1
         Me.Cell2_7.Multiline = False
-        Me.Cell2_7.Name = "Cell3_8"
+        Me.Cell2_7.Name = "Cell2_7"
         Me.Cell2_7.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_7.TabIndex = 27
         Me.Cell2_7.Text = ""
         '
-        'Cell3_9
+        'Cell2_8
         '
         Me.Cell2_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell2_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -671,12 +671,12 @@ Partial Class Board
         Me.Cell2_8.Location = New System.Drawing.Point(758, 211)
         Me.Cell2_8.MaxLength = 1
         Me.Cell2_8.Multiline = False
-        Me.Cell2_8.Name = "Cell3_9"
+        Me.Cell2_8.Name = "Cell2_8"
         Me.Cell2_8.Size = New System.Drawing.Size(45, 84)
         Me.Cell2_8.TabIndex = 28
         Me.Cell2_8.Text = ""
         '
-        'Cell4_1
+        'Cell3_0
         '
         Me.Cell3_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -685,12 +685,12 @@ Partial Class Board
         Me.Cell3_0.Location = New System.Drawing.Point(55, 300)
         Me.Cell3_0.MaxLength = 1
         Me.Cell3_0.Multiline = False
-        Me.Cell3_0.Name = "Cell4_1"
+        Me.Cell3_0.Name = "Cell3_0"
         Me.Cell3_0.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_0.TabIndex = 29
         Me.Cell3_0.Text = ""
         '
-        'Cell4_2
+        'Cell3_1
         '
         Me.Cell3_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -699,12 +699,12 @@ Partial Class Board
         Me.Cell3_1.Location = New System.Drawing.Point(143, 300)
         Me.Cell3_1.MaxLength = 1
         Me.Cell3_1.Multiline = False
-        Me.Cell3_1.Name = "Cell4_2"
+        Me.Cell3_1.Name = "Cell3_1"
         Me.Cell3_1.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_1.TabIndex = 30
         Me.Cell3_1.Text = ""
         '
-        'Cell4_3
+        'Cell3_2
         '
         Me.Cell3_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -713,12 +713,12 @@ Partial Class Board
         Me.Cell3_2.Location = New System.Drawing.Point(230, 300)
         Me.Cell3_2.MaxLength = 1
         Me.Cell3_2.Multiline = False
-        Me.Cell3_2.Name = "Cell4_3"
+        Me.Cell3_2.Name = "Cell3_2"
         Me.Cell3_2.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_2.TabIndex = 31
         Me.Cell3_2.Text = ""
         '
-        'Cell4_4
+        'Cell3_3
         '
         Me.Cell3_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -727,12 +727,12 @@ Partial Class Board
         Me.Cell3_3.Location = New System.Drawing.Point(319, 300)
         Me.Cell3_3.MaxLength = 1
         Me.Cell3_3.Multiline = False
-        Me.Cell3_3.Name = "Cell4_4"
+        Me.Cell3_3.Name = "Cell3_3"
         Me.Cell3_3.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_3.TabIndex = 32
         Me.Cell3_3.Text = ""
         '
-        'Cell4_5
+        'Cell3_4
         '
         Me.Cell3_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -741,12 +741,12 @@ Partial Class Board
         Me.Cell3_4.Location = New System.Drawing.Point(406, 300)
         Me.Cell3_4.MaxLength = 1
         Me.Cell3_4.Multiline = False
-        Me.Cell3_4.Name = "Cell4_5"
+        Me.Cell3_4.Name = "Cell3_4"
         Me.Cell3_4.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_4.TabIndex = 33
         Me.Cell3_4.Text = ""
         '
-        'Cell4_6
+        'Cell3_5
         '
         Me.Cell3_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -755,12 +755,12 @@ Partial Class Board
         Me.Cell3_5.Location = New System.Drawing.Point(494, 300)
         Me.Cell3_5.MaxLength = 1
         Me.Cell3_5.Multiline = False
-        Me.Cell3_5.Name = "Cell4_6"
+        Me.Cell3_5.Name = "Cell3_5"
         Me.Cell3_5.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_5.TabIndex = 34
         Me.Cell3_5.Text = ""
         '
-        'Cell4_7
+        'Cell3_6
         '
         Me.Cell3_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -769,12 +769,12 @@ Partial Class Board
         Me.Cell3_6.Location = New System.Drawing.Point(583, 300)
         Me.Cell3_6.MaxLength = 1
         Me.Cell3_6.Multiline = False
-        Me.Cell3_6.Name = "Cell4_7"
+        Me.Cell3_6.Name = "Cell3_6"
         Me.Cell3_6.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_6.TabIndex = 35
         Me.Cell3_6.Text = ""
         '
-        'Cell4_8
+        'Cell3_7
         '
         Me.Cell3_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -783,12 +783,12 @@ Partial Class Board
         Me.Cell3_7.Location = New System.Drawing.Point(670, 300)
         Me.Cell3_7.MaxLength = 1
         Me.Cell3_7.Multiline = False
-        Me.Cell3_7.Name = "Cell4_8"
+        Me.Cell3_7.Name = "Cell3_7"
         Me.Cell3_7.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_7.TabIndex = 36
         Me.Cell3_7.Text = ""
         '
-        'Cell4_9
+        'Cell3_8
         '
         Me.Cell3_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell3_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -797,12 +797,12 @@ Partial Class Board
         Me.Cell3_8.Location = New System.Drawing.Point(758, 300)
         Me.Cell3_8.MaxLength = 1
         Me.Cell3_8.Multiline = False
-        Me.Cell3_8.Name = "Cell4_9"
+        Me.Cell3_8.Name = "Cell3_8"
         Me.Cell3_8.Size = New System.Drawing.Size(45, 84)
         Me.Cell3_8.TabIndex = 37
         Me.Cell3_8.Text = ""
         '
-        'Cell5_1
+        'Cell4_0
         '
         Me.Cell4_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -811,12 +811,12 @@ Partial Class Board
         Me.Cell4_0.Location = New System.Drawing.Point(55, 387)
         Me.Cell4_0.MaxLength = 1
         Me.Cell4_0.Multiline = False
-        Me.Cell4_0.Name = "Cell5_1"
+        Me.Cell4_0.Name = "Cell4_0"
         Me.Cell4_0.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_0.TabIndex = 38
         Me.Cell4_0.Text = ""
         '
-        'Cell5_2
+        'Cell4_1
         '
         Me.Cell4_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -825,12 +825,12 @@ Partial Class Board
         Me.Cell4_1.Location = New System.Drawing.Point(142, 387)
         Me.Cell4_1.MaxLength = 1
         Me.Cell4_1.Multiline = False
-        Me.Cell4_1.Name = "Cell5_2"
+        Me.Cell4_1.Name = "Cell4_1"
         Me.Cell4_1.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_1.TabIndex = 39
         Me.Cell4_1.Text = ""
         '
-        'Cell5_3
+        'Cell4_2
         '
         Me.Cell4_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -839,12 +839,12 @@ Partial Class Board
         Me.Cell4_2.Location = New System.Drawing.Point(230, 387)
         Me.Cell4_2.MaxLength = 1
         Me.Cell4_2.Multiline = False
-        Me.Cell4_2.Name = "Cell5_3"
+        Me.Cell4_2.Name = "Cell4_2"
         Me.Cell4_2.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_2.TabIndex = 40
         Me.Cell4_2.Text = ""
         '
-        'Cell5_4
+        'Cell4_3
         '
         Me.Cell4_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -853,12 +853,12 @@ Partial Class Board
         Me.Cell4_3.Location = New System.Drawing.Point(319, 387)
         Me.Cell4_3.MaxLength = 1
         Me.Cell4_3.Multiline = False
-        Me.Cell4_3.Name = "Cell5_4"
+        Me.Cell4_3.Name = "Cell4_3"
         Me.Cell4_3.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_3.TabIndex = 41
         Me.Cell4_3.Text = ""
         '
-        'Cell5_5
+        'Cell4_4
         '
         Me.Cell4_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -867,12 +867,12 @@ Partial Class Board
         Me.Cell4_4.Location = New System.Drawing.Point(406, 387)
         Me.Cell4_4.MaxLength = 1
         Me.Cell4_4.Multiline = False
-        Me.Cell4_4.Name = "Cell5_5"
+        Me.Cell4_4.Name = "Cell4_4"
         Me.Cell4_4.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_4.TabIndex = 42
         Me.Cell4_4.Text = ""
         '
-        'Cell5_6
+        'Cell4_5
         '
         Me.Cell4_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -881,12 +881,12 @@ Partial Class Board
         Me.Cell4_5.Location = New System.Drawing.Point(494, 387)
         Me.Cell4_5.MaxLength = 1
         Me.Cell4_5.Multiline = False
-        Me.Cell4_5.Name = "Cell5_6"
+        Me.Cell4_5.Name = "Cell4_5"
         Me.Cell4_5.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_5.TabIndex = 43
         Me.Cell4_5.Text = ""
         '
-        'Cell5_7
+        'Cell4_6
         '
         Me.Cell4_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -895,12 +895,12 @@ Partial Class Board
         Me.Cell4_6.Location = New System.Drawing.Point(583, 387)
         Me.Cell4_6.MaxLength = 1
         Me.Cell4_6.Multiline = False
-        Me.Cell4_6.Name = "Cell5_7"
+        Me.Cell4_6.Name = "Cell4_6"
         Me.Cell4_6.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_6.TabIndex = 44
         Me.Cell4_6.Text = ""
         '
-        'Cell5_8
+        'Cell4_7
         '
         Me.Cell4_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -909,12 +909,12 @@ Partial Class Board
         Me.Cell4_7.Location = New System.Drawing.Point(670, 387)
         Me.Cell4_7.MaxLength = 1
         Me.Cell4_7.Multiline = False
-        Me.Cell4_7.Name = "Cell5_8"
+        Me.Cell4_7.Name = "Cell4_7"
         Me.Cell4_7.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_7.TabIndex = 45
         Me.Cell4_7.Text = ""
         '
-        'Cell5_9
+        'Cell4_8
         '
         Me.Cell4_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell4_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -923,12 +923,12 @@ Partial Class Board
         Me.Cell4_8.Location = New System.Drawing.Point(758, 387)
         Me.Cell4_8.MaxLength = 1
         Me.Cell4_8.Multiline = False
-        Me.Cell4_8.Name = "Cell5_9"
+        Me.Cell4_8.Name = "Cell4_8"
         Me.Cell4_8.Size = New System.Drawing.Size(45, 85)
         Me.Cell4_8.TabIndex = 46
         Me.Cell4_8.Text = ""
         '
-        'Cell6_1
+        'Cell5_0
         '
         Me.Cell5_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -937,12 +937,12 @@ Partial Class Board
         Me.Cell5_0.Location = New System.Drawing.Point(55, 475)
         Me.Cell5_0.MaxLength = 1
         Me.Cell5_0.Multiline = False
-        Me.Cell5_0.Name = "Cell6_1"
+        Me.Cell5_0.Name = "Cell5_0"
         Me.Cell5_0.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_0.TabIndex = 47
         Me.Cell5_0.Text = ""
         '
-        'Cell6_2
+        'Cell5_1
         '
         Me.Cell5_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -951,12 +951,12 @@ Partial Class Board
         Me.Cell5_1.Location = New System.Drawing.Point(142, 475)
         Me.Cell5_1.MaxLength = 1
         Me.Cell5_1.Multiline = False
-        Me.Cell5_1.Name = "Cell6_2"
+        Me.Cell5_1.Name = "Cell5_1"
         Me.Cell5_1.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_1.TabIndex = 48
         Me.Cell5_1.Text = ""
         '
-        'Cell6_3
+        'Cell5_2
         '
         Me.Cell5_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -965,12 +965,12 @@ Partial Class Board
         Me.Cell5_2.Location = New System.Drawing.Point(230, 475)
         Me.Cell5_2.MaxLength = 1
         Me.Cell5_2.Multiline = False
-        Me.Cell5_2.Name = "Cell6_3"
+        Me.Cell5_2.Name = "Cell5_2"
         Me.Cell5_2.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_2.TabIndex = 49
         Me.Cell5_2.Text = ""
         '
-        'Cell6_4
+        'Cell5_3
         '
         Me.Cell5_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -979,12 +979,12 @@ Partial Class Board
         Me.Cell5_3.Location = New System.Drawing.Point(319, 475)
         Me.Cell5_3.MaxLength = 1
         Me.Cell5_3.Multiline = False
-        Me.Cell5_3.Name = "Cell6_4"
+        Me.Cell5_3.Name = "Cell5_3"
         Me.Cell5_3.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_3.TabIndex = 50
         Me.Cell5_3.Text = ""
         '
-        'Cell6_5
+        'Cell5_4
         '
         Me.Cell5_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -993,12 +993,12 @@ Partial Class Board
         Me.Cell5_4.Location = New System.Drawing.Point(406, 475)
         Me.Cell5_4.MaxLength = 1
         Me.Cell5_4.Multiline = False
-        Me.Cell5_4.Name = "Cell6_5"
+        Me.Cell5_4.Name = "Cell5_4"
         Me.Cell5_4.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_4.TabIndex = 51
         Me.Cell5_4.Text = ""
         '
-        'Cell6_6
+        'Cell5_5
         '
         Me.Cell5_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1007,12 +1007,12 @@ Partial Class Board
         Me.Cell5_5.Location = New System.Drawing.Point(494, 475)
         Me.Cell5_5.MaxLength = 1
         Me.Cell5_5.Multiline = False
-        Me.Cell5_5.Name = "Cell6_6"
+        Me.Cell5_5.Name = "Cell5_5"
         Me.Cell5_5.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_5.TabIndex = 52
         Me.Cell5_5.Text = ""
         '
-        'Cell6_7
+        'Cell5_6
         '
         Me.Cell5_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1021,12 +1021,12 @@ Partial Class Board
         Me.Cell5_6.Location = New System.Drawing.Point(583, 475)
         Me.Cell5_6.MaxLength = 1
         Me.Cell5_6.Multiline = False
-        Me.Cell5_6.Name = "Cell6_7"
+        Me.Cell5_6.Name = "Cell5_6"
         Me.Cell5_6.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_6.TabIndex = 53
         Me.Cell5_6.Text = ""
         '
-        'Cell6_8
+        'Cell5_7
         '
         Me.Cell5_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1035,12 +1035,12 @@ Partial Class Board
         Me.Cell5_7.Location = New System.Drawing.Point(670, 475)
         Me.Cell5_7.MaxLength = 1
         Me.Cell5_7.Multiline = False
-        Me.Cell5_7.Name = "Cell6_8"
+        Me.Cell5_7.Name = "Cell5_7"
         Me.Cell5_7.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_7.TabIndex = 54
         Me.Cell5_7.Text = ""
         '
-        'Cell6_9
+        'Cell5_8
         '
         Me.Cell5_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell5_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1049,12 +1049,12 @@ Partial Class Board
         Me.Cell5_8.Location = New System.Drawing.Point(758, 475)
         Me.Cell5_8.MaxLength = 1
         Me.Cell5_8.Multiline = False
-        Me.Cell5_8.Name = "Cell6_9"
+        Me.Cell5_8.Name = "Cell5_8"
         Me.Cell5_8.Size = New System.Drawing.Size(45, 84)
         Me.Cell5_8.TabIndex = 55
         Me.Cell5_8.Text = ""
         '
-        'Cell7_1
+        'Cell6_0
         '
         Me.Cell6_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1063,12 +1063,12 @@ Partial Class Board
         Me.Cell6_0.Location = New System.Drawing.Point(55, 564)
         Me.Cell6_0.MaxLength = 1
         Me.Cell6_0.Multiline = False
-        Me.Cell6_0.Name = "Cell7_1"
+        Me.Cell6_0.Name = "Cell6_0"
         Me.Cell6_0.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_0.TabIndex = 56
         Me.Cell6_0.Text = ""
         '
-        'Cell7_2
+        'Cell6_1
         '
         Me.Cell6_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1077,12 +1077,12 @@ Partial Class Board
         Me.Cell6_1.Location = New System.Drawing.Point(142, 564)
         Me.Cell6_1.MaxLength = 1
         Me.Cell6_1.Multiline = False
-        Me.Cell6_1.Name = "Cell7_2"
+        Me.Cell6_1.Name = "Cell6_1"
         Me.Cell6_1.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_1.TabIndex = 57
         Me.Cell6_1.Text = ""
         '
-        'Cell7_3
+        'Cell6_2
         '
         Me.Cell6_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1091,12 +1091,12 @@ Partial Class Board
         Me.Cell6_2.Location = New System.Drawing.Point(230, 564)
         Me.Cell6_2.MaxLength = 1
         Me.Cell6_2.Multiline = False
-        Me.Cell6_2.Name = "Cell7_3"
+        Me.Cell6_2.Name = "Cell6_2"
         Me.Cell6_2.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_2.TabIndex = 58
         Me.Cell6_2.Text = ""
         '
-        'Cell7_4
+        'Cell6_3
         '
         Me.Cell6_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1105,12 +1105,12 @@ Partial Class Board
         Me.Cell6_3.Location = New System.Drawing.Point(319, 564)
         Me.Cell6_3.MaxLength = 1
         Me.Cell6_3.Multiline = False
-        Me.Cell6_3.Name = "Cell7_4"
+        Me.Cell6_3.Name = "Cell6_3"
         Me.Cell6_3.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_3.TabIndex = 59
         Me.Cell6_3.Text = ""
         '
-        'Cell7_5
+        'Cell6_4
         '
         Me.Cell6_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1119,12 +1119,12 @@ Partial Class Board
         Me.Cell6_4.Location = New System.Drawing.Point(406, 564)
         Me.Cell6_4.MaxLength = 1
         Me.Cell6_4.Multiline = False
-        Me.Cell6_4.Name = "Cell7_5"
+        Me.Cell6_4.Name = "Cell6_4"
         Me.Cell6_4.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_4.TabIndex = 60
         Me.Cell6_4.Text = ""
         '
-        'Cell7_6
+        'Cell6_5
         '
         Me.Cell6_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1133,12 +1133,12 @@ Partial Class Board
         Me.Cell6_5.Location = New System.Drawing.Point(494, 564)
         Me.Cell6_5.MaxLength = 1
         Me.Cell6_5.Multiline = False
-        Me.Cell6_5.Name = "Cell7_6"
+        Me.Cell6_5.Name = "Cell6_5"
         Me.Cell6_5.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_5.TabIndex = 61
         Me.Cell6_5.Text = ""
         '
-        'Cell7_7
+        'Cell6_6
         '
         Me.Cell6_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1147,12 +1147,12 @@ Partial Class Board
         Me.Cell6_6.Location = New System.Drawing.Point(583, 564)
         Me.Cell6_6.MaxLength = 1
         Me.Cell6_6.Multiline = False
-        Me.Cell6_6.Name = "Cell7_7"
+        Me.Cell6_6.Name = "Cell6_6"
         Me.Cell6_6.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_6.TabIndex = 62
         Me.Cell6_6.Text = ""
         '
-        'Cell7_8
+        'Cell6_7
         '
         Me.Cell6_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1161,12 +1161,12 @@ Partial Class Board
         Me.Cell6_7.Location = New System.Drawing.Point(670, 564)
         Me.Cell6_7.MaxLength = 1
         Me.Cell6_7.Multiline = False
-        Me.Cell6_7.Name = "Cell7_8"
+        Me.Cell6_7.Name = "Cell6_7"
         Me.Cell6_7.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_7.TabIndex = 63
         Me.Cell6_7.Text = ""
         '
-        'Cell7_9
+        'Cell6_8
         '
         Me.Cell6_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell6_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1175,12 +1175,12 @@ Partial Class Board
         Me.Cell6_8.Location = New System.Drawing.Point(758, 564)
         Me.Cell6_8.MaxLength = 1
         Me.Cell6_8.Multiline = False
-        Me.Cell6_8.Name = "Cell7_9"
+        Me.Cell6_8.Name = "Cell6_8"
         Me.Cell6_8.Size = New System.Drawing.Size(45, 84)
         Me.Cell6_8.TabIndex = 64
         Me.Cell6_8.Text = ""
         '
-        'Cell8_1
+        'Cell7_0
         '
         Me.Cell7_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1189,12 +1189,12 @@ Partial Class Board
         Me.Cell7_0.Location = New System.Drawing.Point(55, 651)
         Me.Cell7_0.MaxLength = 1
         Me.Cell7_0.Multiline = False
-        Me.Cell7_0.Name = "Cell8_1"
+        Me.Cell7_0.Name = "Cell7_0"
         Me.Cell7_0.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_0.TabIndex = 65
         Me.Cell7_0.Text = ""
         '
-        'Cell8_2
+        'Cell7_1
         '
         Me.Cell7_1.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_1.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1203,12 +1203,12 @@ Partial Class Board
         Me.Cell7_1.Location = New System.Drawing.Point(142, 651)
         Me.Cell7_1.MaxLength = 1
         Me.Cell7_1.Multiline = False
-        Me.Cell7_1.Name = "Cell8_2"
+        Me.Cell7_1.Name = "Cell7_1"
         Me.Cell7_1.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_1.TabIndex = 66
         Me.Cell7_1.Text = ""
         '
-        'Cell8_3
+        'Cell7_2
         '
         Me.Cell7_2.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_2.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1217,12 +1217,12 @@ Partial Class Board
         Me.Cell7_2.Location = New System.Drawing.Point(230, 651)
         Me.Cell7_2.MaxLength = 1
         Me.Cell7_2.Multiline = False
-        Me.Cell7_2.Name = "Cell8_3"
+        Me.Cell7_2.Name = "Cell7_2"
         Me.Cell7_2.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_2.TabIndex = 67
         Me.Cell7_2.Text = ""
         '
-        'Cell8_4
+        'Cell7_3
         '
         Me.Cell7_3.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_3.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1231,12 +1231,12 @@ Partial Class Board
         Me.Cell7_3.Location = New System.Drawing.Point(319, 651)
         Me.Cell7_3.MaxLength = 1
         Me.Cell7_3.Multiline = False
-        Me.Cell7_3.Name = "Cell8_4"
+        Me.Cell7_3.Name = "Cell7_3"
         Me.Cell7_3.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_3.TabIndex = 68
         Me.Cell7_3.Text = ""
         '
-        'Cell8_5
+        'Cell7_4
         '
         Me.Cell7_4.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_4.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1245,12 +1245,12 @@ Partial Class Board
         Me.Cell7_4.Location = New System.Drawing.Point(406, 651)
         Me.Cell7_4.MaxLength = 1
         Me.Cell7_4.Multiline = False
-        Me.Cell7_4.Name = "Cell8_5"
+        Me.Cell7_4.Name = "Cell7_4"
         Me.Cell7_4.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_4.TabIndex = 69
         Me.Cell7_4.Text = ""
         '
-        'Cell8_6
+        'Cell7_5
         '
         Me.Cell7_5.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_5.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1259,12 +1259,12 @@ Partial Class Board
         Me.Cell7_5.Location = New System.Drawing.Point(494, 651)
         Me.Cell7_5.MaxLength = 1
         Me.Cell7_5.Multiline = False
-        Me.Cell7_5.Name = "Cell8_6"
+        Me.Cell7_5.Name = "Cell7_5"
         Me.Cell7_5.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_5.TabIndex = 70
         Me.Cell7_5.Text = ""
         '
-        'Cell8_7
+        'Cell7_6
         '
         Me.Cell7_6.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_6.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1273,12 +1273,12 @@ Partial Class Board
         Me.Cell7_6.Location = New System.Drawing.Point(583, 651)
         Me.Cell7_6.MaxLength = 1
         Me.Cell7_6.Multiline = False
-        Me.Cell7_6.Name = "Cell8_7"
+        Me.Cell7_6.Name = "Cell7_6"
         Me.Cell7_6.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_6.TabIndex = 71
         Me.Cell7_6.Text = ""
         '
-        'Cell8_8
+        'Cell7_7
         '
         Me.Cell7_7.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_7.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1287,12 +1287,12 @@ Partial Class Board
         Me.Cell7_7.Location = New System.Drawing.Point(670, 651)
         Me.Cell7_7.MaxLength = 1
         Me.Cell7_7.Multiline = False
-        Me.Cell7_7.Name = "Cell8_8"
+        Me.Cell7_7.Name = "Cell7_7"
         Me.Cell7_7.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_7.TabIndex = 72
         Me.Cell7_7.Text = ""
         '
-        'Cell8_9
+        'Cell7_8
         '
         Me.Cell7_8.BackColor = System.Drawing.Color.LightBlue
         Me.Cell7_8.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1301,12 +1301,12 @@ Partial Class Board
         Me.Cell7_8.Location = New System.Drawing.Point(758, 651)
         Me.Cell7_8.MaxLength = 1
         Me.Cell7_8.Multiline = False
-        Me.Cell7_8.Name = "Cell8_9"
+        Me.Cell7_8.Name = "Cell7_8"
         Me.Cell7_8.Size = New System.Drawing.Size(45, 85)
         Me.Cell7_8.TabIndex = 73
         Me.Cell7_8.Text = ""
         '
-        'Cell1_1
+        'Cell0_0
         '
         Me.Cell0_0.BackColor = System.Drawing.Color.LightBlue
         Me.Cell0_0.BorderStyle = System.Windows.Forms.BorderStyle.None
@@ -1315,7 +1315,7 @@ Partial Class Board
         Me.Cell0_0.Location = New System.Drawing.Point(52, 35)
         Me.Cell0_0.MaxLength = 1
         Me.Cell0_0.Multiline = False
-        Me.Cell0_0.Name = "Cell1_1"
+        Me.Cell0_0.Name = "Cell0_0"
         Me.Cell0_0.Size = New System.Drawing.Size(45, 85)
         Me.Cell0_0.TabIndex = 2
         Me.Cell0_0.Text = ""
@@ -1326,6 +1326,7 @@ Partial Class Board
         Me.ChooseDiifWarning.ForeColor = System.Drawing.Color.DarkRed
         Me.ChooseDiifWarning.Location = New System.Drawing.Point(898, 250)
         Me.ChooseDiifWarning.Name = "ChooseDiifWarning"
+        Me.ChooseDiifWarning.ReadOnly = True
         Me.ChooseDiifWarning.Size = New System.Drawing.Size(317, 33)
         Me.ChooseDiifWarning.TabIndex = 91
         Me.ChooseDiifWarning.Text = "You must choose a difficulty!"
@@ -1338,7 +1339,6 @@ Partial Class Board
         Me.TextBox1.Size = New System.Drawing.Size(100, 20)
         Me.TextBox1.TabIndex = 92
         Me.TextBox1.Text = "First row"
-        Me.TextBox1.Visible = False
         '
         'TextBox2
         '
@@ -1347,7 +1347,6 @@ Partial Class Board
         Me.TextBox2.Size = New System.Drawing.Size(100, 20)
         Me.TextBox2.TabIndex = 93
         Me.TextBox2.Text = "Second row"
-        Me.TextBox2.Visible = False
         '
         'Board
         '
