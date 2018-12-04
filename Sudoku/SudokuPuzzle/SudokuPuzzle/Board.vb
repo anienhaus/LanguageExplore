@@ -54,6 +54,7 @@
         HardDiff.Checked = False
     End Sub
 
+    ' Initial condtions for new board displayed 
     Private Sub LoadBoard(ByVal board As Array, ByVal fileName As String)
         Dim rowCount As Integer = 0
         Dim colCount As Integer = 0
@@ -86,6 +87,7 @@
         End Using
     End Sub
 
+    ' Sets up the board 
     Private Sub DrawToBoard(ByVal board As Array)
         Dim cells() As RichTextBox = New RichTextBox() {
             Cell0_0, Cell0_1, Cell0_2, Cell0_3, Cell0_4, Cell0_5, Cell0_6, Cell0_7, Cell0_8,
@@ -119,6 +121,7 @@
         Next
     End Sub
 
+    ' Handles when an individual value is inputed 
     Private Sub NumberInputted(sender As Object, e As EventArgs) Handles Cell0_0.TextChanged,
             Cell0_1.TextChanged, Cell0_2.TextChanged, Cell0_3.TextChanged, Cell0_4.TextChanged, Cell0_5.TextChanged, Cell0_6.TextChanged, Cell0_7.TextChanged, Cell0_8.TextChanged,
             Cell1_0.TextChanged, Cell1_1.TextChanged, Cell1_2.TextChanged, Cell1_3.TextChanged, Cell1_4.TextChanged, Cell1_5.TextChanged, Cell1_6.TextChanged, Cell1_7.TextChanged, Cell1_8.TextChanged,
@@ -154,6 +157,8 @@
         End If
     End Sub
 
+    ' Compares inputted value to the answer key
+    ' If the user inputs an incorrect value a window appears 
     Private Sub CheckNum(ByVal rowNum As Integer, ByVal colNum As Integer, ByVal val As Integer)
         If (GlobalVariable.AnsBoard(rowNum, colNum) <> val) Then
             'Increment mistakes textbox
@@ -167,6 +172,7 @@
 
     End Sub
 
+    ' Checks if the game is completed by comparing each cell 
     Function CheckWin() As Boolean
         Dim counter As Integer = 0
         Dim cells() As RichTextBox = New RichTextBox() {
@@ -189,6 +195,7 @@
         Return (counter = cells.Length)
     End Function
 
+    ' Resets the game if the user selects yes on the end game menu 
     Private Sub ResetGame()
         ShowDiff()
         Mistake_Value.Text = 0
@@ -214,6 +221,7 @@
 
 End Class
 
+' Class of global values for the answer key and the game state arrays 
 Public Class GlobalVariable
     Public Shared AnsBoard(,) As Integer = New Integer(9, 9) {}
     Public Shared GameBoard(,) As Integer = New Integer(9, 9) {}
