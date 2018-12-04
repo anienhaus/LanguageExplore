@@ -1350,6 +1350,7 @@ Partial Class Board
         '
         Me.Mistake_Label.AutoSize = True
         Me.Mistake_Label.Font = New System.Drawing.Font("Verdana", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Mistake_Label.ForeColor = System.Drawing.Color.Crimson
         Me.Mistake_Label.Location = New System.Drawing.Point(874, 303)
         Me.Mistake_Label.Name = "Mistake_Label"
         Me.Mistake_Label.Size = New System.Drawing.Size(180, 25)
